@@ -1,0 +1,19 @@
+{
+  "name": "problem-solving",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "dev": "ts-node-dev --respawn --transpile-only src/input/main.ts",
+    "start": "tsc --watch & ts-node-dev --respawn --transpile-only src/input/main.ts"
+  },
+  "keywords": [],
+  "author": "Md Babul Akter | babulakterfsd",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
